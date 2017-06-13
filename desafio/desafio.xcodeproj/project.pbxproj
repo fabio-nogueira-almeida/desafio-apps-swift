@@ -47,6 +47,7 @@
 		70668F9C1ED5278800F43008 /* desafioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = desafioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70668FA01ED5278800F43008 /* desafioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafioUITests.swift; sourceTree = "<group>"; };
 		70668FA21ED5278800F43008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70783FE71ED6770200BFA808 /* Networking.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Networking.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		70668F741ED5278700F43008 = {
 			isa = PBXGroup;
 			children = (
+				70783FE61ED676EB00BFA808 /* Playground */,
 				70668F7F1ED5278800F43008 /* desafio */,
 				70668F941ED5278800F43008 /* desafioTests */,
 				70668F9F1ED5278800F43008 /* desafioUITests */,
@@ -123,6 +125,14 @@
 				70668FA21ED5278800F43008 /* Info.plist */,
 			);
 			path = desafioUITests;
+			sourceTree = "<group>";
+		};
+		70783FE61ED676EB00BFA808 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				70783FE71ED6770200BFA808 /* Networking.playground */,
+			);
+			name = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -507,6 +517,7 @@
 				70668FA71ED5278800F43008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70668FA81ED5278800F43008 /* Build configuration list for PBXNativeTarget "desafioTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +526,7 @@
 				70668FAA1ED5278800F43008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70668FAB1ED5278800F43008 /* Build configuration list for PBXNativeTarget "desafioUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +535,7 @@
 				70668FAD1ED5278800F43008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
